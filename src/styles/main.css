@@ -207,6 +207,10 @@ li {
     margin:0;
 }
 
+.home-left {
+    float:left;
+}
+
 
 .badge {
     float:right;
@@ -221,6 +225,11 @@ li {
     width: 2rem;
     margin-right: 10px;
     margin-left: 20px; 
+}
+
+.icon-clock {
+    margin-left: 25px;
+    margin-right: 5px;
 }
 
 
@@ -271,6 +280,11 @@ li {
 
 .indent-timeloc {
     margin-left:15%;
+}
+
+.indent {
+    margin-left:10%;
+    margin-bottom: 10px;
 }
 
 .text {
@@ -590,7 +604,7 @@ table {
     border-collapse: collapse;
 }
 
-#table-u20 {
+#table-u16 {
     display: none;
 }
 #table-students {
