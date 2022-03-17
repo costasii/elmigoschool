@@ -174,17 +174,12 @@ li {
 
 .bg-home {
     background-image: url("../images/bg-home-final1.jpg");
- 
+    background-size: cover;
     background-position: 50% 20%;
     color: rgb(34, 34, 34);
     font-weight: bolder;
 }
 
-@media screen and (max-width:768px) {
-    .bg-home {
-        background-position: 40% 20%;
-    }
-}
 
 .bg-blacker {
     background-color: rgba(34, 34, 34, 0.7);
@@ -601,10 +596,6 @@ hr {
 
 .image-centered {
     text-align: center;
-}
-
-.image-container {
-   
 }
 
 .row-contact {
