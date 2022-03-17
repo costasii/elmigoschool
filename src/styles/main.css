@@ -269,6 +269,23 @@ li {
     text-align: center;
 }
 
+@media screen and (max-width:768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+    .item-title {
+        font-size: 2rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main-title {
+        display:none;
+    }
+}
+
+
 .item-title-contact {
     padding-bottom: 5%;
 }
@@ -276,6 +293,7 @@ li {
 .important {
     font-weight: 500;
     font-size:larger;
+  
 }
 
 .indent-timeloc {
@@ -314,6 +332,7 @@ hr {
 .scaled-image-youth {
     max-height: 20%;
     max-width:70%;
+    margin:2%;
     
 }
 
@@ -515,7 +534,7 @@ hr {
         height: 70px;
     }
     .column {
-        margin:5%;
+        margin:2%;
     }
     .icon {
         width: 2em;
@@ -755,8 +774,3 @@ table.tableizer-table {
 
 /*for phones*/
 
-@media screen and (max-width: 768px) {
-    .item-title { font-size: 3em;
-    text-align: left;}
-    
-}
