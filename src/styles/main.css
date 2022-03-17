@@ -182,7 +182,7 @@ li {
 
 @media screen and (max-width:768px) {
     .bg-home {
-        background-size: cover; 
+        background-position: 40% 20%;
     }
 }
 
@@ -212,6 +212,7 @@ li {
 }
 
 .sub-item {
+
     text-align: center;
     float:right;
 }
@@ -283,6 +284,7 @@ li {
     text-transform: uppercase;
 }
 
+
 .main-title {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgb(230, 196, 119);
@@ -299,6 +301,9 @@ li {
     .item-title {
         font-size: 2rem;
         text-align: left;
+    }
+    .item-title-home {
+        text-align: center;
     }
 }
 
@@ -558,6 +563,10 @@ hr {
     flex: 50%;
     margin:auto;
     vertical-align:middle;
+}
+
+.home-bg-text {
+    background-color: rgba(255,255,255,0.4);
 }
 
 @media screen and (max-width: 768px) {
