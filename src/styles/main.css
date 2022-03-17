@@ -495,6 +495,14 @@ hr {
     color:rgb(243, 235, 217);
 }
 
+@media screen and (max-width:768px){
+    .link-home {
+        padding:20px;
+        font-size: 1.2em;
+        
+    }
+}
+
 .item-subtitle {
     color:rgb(34, 34, 34);
     font-size: 1.2em;
