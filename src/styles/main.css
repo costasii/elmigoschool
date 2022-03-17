@@ -174,9 +174,16 @@ li {
 
 .bg-home {
     background-image: url("../images/bg-home-final1.jpg");
+ 
     background-position: 50% 20%;
     color: rgb(34, 34, 34);
     font-weight: bolder;
+}
+
+@media screen and (max-width:768px) {
+    .bg-home {
+        background-size: cover; 
+    }
 }
 
 .bg-blacker {
