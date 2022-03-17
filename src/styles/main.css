@@ -105,14 +105,26 @@ li {
 }
 
 .navbar a.left {
-    float:left;
+    float:right;
 }
 
 .link-lang {
+    float:right;
+    display:block;
+    color:white;
+    text-align: center;
+    
+    margin-top: 25px;
+    text-decoration: none;
     margin-right: 2%;
     margin-left: 2%;
     padding: 10px 10px;
     border: solid 3px lightgray;
+}
+
+.link-lang:hover {
+    background-color:lightgray;
+    color:black;
 }
 
 /*Navbar responsive*/
@@ -121,8 +133,8 @@ li {
     .menu-item {
         display: none;
     }
+   
     .nav-bars {
-     
         float: right;
         display:block;
     }
@@ -137,6 +149,9 @@ li {
         float: none;
         display:block;
         text-align: left;
+    }
+    .navbar.responsive .link-lang {
+        display:none;
     }
     
 }
@@ -507,6 +522,13 @@ hr {
     color:rgb(34, 34, 34);
     font-size: 1.2em;
 }
+
+@media screen and (max-width:768px){
+    .item-subtitle {
+        font-size:1.1em;
+    }
+}
+
 
 .pricelist-container {
     margin: 100px;
