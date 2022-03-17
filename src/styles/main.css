@@ -173,9 +173,10 @@ li {
 }
 
 .bg-home {
-    background-image: url("../images/bg-home-final.jpg");
+    background-image: url("../images/bg-home-final1.jpg");
     background-position: 50% 20%;
-    color: rgb(243, 235, 217);
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
 }
 
 .bg-blacker {
@@ -209,7 +210,7 @@ li {
 }
 
 .home-text {
-    color: white;
+    color: rgb(34, 34, 34);
     font-size: 1.5em;
 }
 
@@ -488,7 +489,7 @@ hr {
 
 .link-name-home {
    
-    color:rgb(243, 235, 217);
+    color:rgb(34, 34, 34);
 }
 .link-name-home:hover {
     color:darkgoldenrod;
@@ -498,16 +499,16 @@ hr {
     font-weight: bold;
     font-size: 1.5em;
     text-decoration: none;
-    background-color: rgb(243, 235, 217);
-    color:black;
+    color: rgb(243, 235, 217);
+    background-color:rgb(34, 34, 34);
     padding:30px;
     border-radius: 10px;
 }
 
 .link-home:hover {
     text-decoration: none;
-    background-color:black;
-    color:rgb(243, 235, 217);
+    color:black;
+    background-color:rgb(243, 235, 217);
 }
 
 @media screen and (max-width:768px){
