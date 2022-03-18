@@ -127,6 +127,10 @@ li {
     color:black;
 }
 
+.link-logo {
+    text-decoration: none;
+}
+
 /*Navbar responsive*/
 
 @media screen and (max-width:768px) {
@@ -136,7 +140,7 @@ li {
 
    
     .nav-bars {
-        float: right;
+        float:right;
         display:inline;
     }
 
@@ -161,6 +165,7 @@ li {
 
     .navbar.responsive .link-logo {
         display:inline;
+        
     }
     
     
@@ -769,12 +774,6 @@ table.tableizer-table {
    max-width: max-content;
 }
 
-@media screen and (max-width: 400px) {
-    .navbar a {
-      float: none;
-      width: 100%;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .flex-container {
