@@ -133,10 +133,11 @@ li {
     .menu-item {
         display: none;
     }
+
    
     .nav-bars {
         float: right;
-        display:block;
+        display:inline;
     }
 
     .navbar.responsive {position:sticky;}
@@ -153,6 +154,12 @@ li {
     .navbar.responsive .link-lang {
         display:none;
     }
+    .navbar.responsive .link-lang:hover {
+     
+        background-color: transparent;
+    }
+    
+    
     
 }
 
