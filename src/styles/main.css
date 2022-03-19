@@ -783,6 +783,10 @@ table.tableizer-table {
    max-width: max-content;
 }
 
+.mail-link {
+    color:white;
+}
+
 
 @media screen and (max-width: 768px) {
     .flex-container {
