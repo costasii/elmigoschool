@@ -196,6 +196,15 @@ li {
     font-weight: bolder;
 }
 
+/* @media screen and (max-width:768px) {
+    .bg-home {
+        background-image: url("../images/bg-home-final1.jpg");
+      
+        color: rgb(34, 34, 34);
+        font-weight: bolder;
+    }
+}
+*/
 
 .bg-blacker {
     background-color: rgba(34, 34, 34, 0.7);
