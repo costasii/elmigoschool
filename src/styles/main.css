@@ -24,7 +24,7 @@ li {
 .header {
     padding: 100px;
     
-    background-image: url("../images/bg-lessons.jpg");
+    background-image: url("../images/bg-lessons.webP");
     background-repeat: no-repeat;
     background-position: 90% 70%;
     color:black;
@@ -34,7 +34,7 @@ li {
     padding: 20px;
     
     text-align: center;
-    background-image: url("../images/bg-lessons.jpg");
+    background-image: url("../images/bg-lessons.webP");
     background-repeat: no-repeat;
     color:black;
 }
