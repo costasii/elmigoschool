@@ -189,9 +189,10 @@ li {
 }
 
 .bg-home {
-    background-image: url("../images/bg-home-final1.webP");
+    /*background-image: url("../images/bg-home-final1.webP");
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 50% 20%;*/
+    background-color: #d6bf74;
     color: rgb(34, 34, 34);
     font-weight: bolder;
 }
