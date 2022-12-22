@@ -192,7 +192,7 @@ li {
     /*background-image: url("../images/bg-home-final1.webP");
     background-size: cover;
     background-position: 50% 20%;*/
-    background-color: #d6bf74;
+    background-color: #E3F1ED;
     color: rgb(34, 34, 34);
     font-weight: bolder;
 }
@@ -511,6 +511,22 @@ hr {
     }
 }
 
+.link-home-smaller {
+    float: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    color:#E3F1ED;
+    background-color:rgb(34, 34, 34);
+    padding:20px;
+    border-radius: 10px;
+}
+
+.link-home-smaller:hover {
+    color: rgb(34,34,34);
+    background-color: #E3F1ED;
+}
+
 .link-name {
 
     color:black;
@@ -526,7 +542,7 @@ hr {
     color:rgb(34, 34, 34);
 }
 .link-name-home:hover {
-    color:darkgoldenrod;
+    color: rgb(23, 89, 41);
 }
 .link-home {
     float: center;
