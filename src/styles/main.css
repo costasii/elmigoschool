@@ -669,11 +669,11 @@ hr {
 }
 
 .left {
-    flex:25%;
+    flex:35%;
 }
 
 .right {
-    flex: 75%;
+    flex: 65%;
 }
 
 .discount-radio {
@@ -731,20 +731,23 @@ table {
 #table-u16 {
     display: none;
 }
-#table-students {
+#table-G2 {
+    display:none;
+}
+#table-G3 {
     display:none;
 }
 
 table.tableizer-table {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.3em;
     
     font-family: Arial, Helvetica, sans-serif;
 } 
 
 .tableizer-table td {
     height: 20px;
-    padding: 6px;
+    padding: 15px;
     margin: 3px;
     border: 1px solid #CCC;
 }
@@ -755,7 +758,7 @@ table.tableizer-table {
     width: max-content;
     height: 40%;
     text-align: center;
-    padding: 6px;
+    padding: 15px;
     margin: 3px;
     background-color: rgb(34, 34, 34); 
     color: #FFF;
@@ -766,12 +769,11 @@ table.tableizer-table {
     writing-mode: vertical-lr;
     -ms-writing-mode: tb-rl;
     transform: rotate(180deg);
+    padding: 20px;
 }
 
 .vert-style {
-    padding: 6px;
-    margin: 3px;
-    background-color: rgb(34, 34, 34); 
+    background-color: rgb(100,100,100); 
     color: #FFF;
     font-weight: bold;
 }
